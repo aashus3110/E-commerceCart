@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Unicone CSS-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="../../static/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <header>
+      <div class="nav container">
+        <a href="./" class="logo">Ecommerce cart</a>
+        <p id="cart-icon">CART</p>
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <div class="cart-content"></div>
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <button type="button" class="btn" id="s-add">Select Address</button>
+          <span id="close-cart">X</span>
+        </div>
+      </div>
+    </header>
+
+    <form class="form">
+      <input type="radio" name="address" value="Address1." id="" />
+      <label> Address1 </label>
+      <br />
+      <input type="radio" name="address" value="Address2" />
+      <label> Address2 </label>
+      <br />
+      <input type="radio" name="address" value="Address3" />
+      <label> Address3 </label>
+
+      <br />
+      <button type="button" class="btn-buy">Buy Now</button>
+    </form>
+
+    <script src="../../static/js/script.js"></script>
+  </body>
+</html>
